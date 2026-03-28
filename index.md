@@ -4,6 +4,10 @@ title: Home
 ---
 
 <div class="disclaimer-banner">
+  <strong>Under construction.</strong> This site is actively being developed. Content may be incomplete or subject to change.
+</div>
+
+<div class="disclaimer-banner">
   <strong>Note:</strong> This site documents what I teach and why. It is not a syllabus and is not intended for course administration. All survey data shown is simulated for illustration. For official course information, see the <a href="https://scdenney.github.io/assets/pdf/2526-bais-ir.pdf">syllabus</a>.
 </div>
 
