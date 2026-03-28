@@ -205,21 +205,9 @@ If South Korea, with all its resources and intellectual capacity, cannot easily 
 
 ## The Framing Experiment
 
-This module's experiment tests the lecture's central claim: **the historical framework we bring to IR analysis shapes our conclusions**.
+This module includes a framing experiment that directly tests its central claim. Students read about a fictional regional security scenario and are randomly assigned a European historical analogy (balance of power), an Asian analogy (institutional engagement), or no analogy at all. The same facts produce different strategic conclusions depending on whose history provides the lens — exactly what Acharya's critique predicts.
 
-Students take a short anonymous survey and are randomly assigned to one of three groups. Each reads a brief about a fictional regional security scenario — the "Indara Sea region," where State R has experienced rapid economic growth and begun modernizing its military, and its smaller neighbors are debating how to respond. The underlying facts are identical. Only the historical analogy differs:
-
-- **Group A (European frame)** reads an analysis drawing parallels to early 20th-century Europe: a rising power destabilized the balance of power, smaller states that failed to balance became vulnerable, and historical patterns suggest security competition and miscalculation.
-
-- **Group B (Asian frame)** reads an analysis drawing parallels to Southeast Asia: smaller states responded by embedding the rising power in multilateral institutions and diplomatic networks, and ASEAN's strategy of engagement maintained stability despite power asymmetries.
-
-- **Group C (Control)** reads the scenario with no historical analogy — just the facts and a note that scholars disagree about outcomes.
-
-All three groups answer the same five questions about whether engagement can prevent conflict, whether military modernization makes conflict inevitable, and whether regional norms can constrain a rising power. Their answers produce an **Engagement Orientation Score** from 1 (balance-of-power oriented) to 5 (engagement oriented).
-
-The results are revealing. Students primed with the European analogy lean toward balance-of-power recommendations. Students primed with the Asian analogy lean toward institutional engagement. The same facts, the same scenario, the same question — but the historical lens shapes the strategic conclusion.
-
-This is exactly what Acharya's critique predicts. When European history is the default analogy — as it is in most IR textbooks — balancing looks natural, rivalry looks inevitable, and institutions look weak. When Asian history provides the analogy, engagement looks sensible, institutions look effective, and the choice between balancing and bandwagoning looks like a false dichotomy. The lens does not just interpret the picture. It determines what picture students see.
+See the full experiment design, methodology, and illustrative results on the [Experiments]({{ '/experiments' | relative_url }}) page.
 
 ---
 

@@ -39,10 +39,15 @@ body {
 .site-header {
   background: var(--accent-blue);
   color: #ffffff;
-  padding: 2.5rem 0 2rem;
+  padding: 1.75rem 0 1.5rem;
   border-bottom: 4px solid var(--dusty-rose);
   position: relative;
   z-index: 100;
+}
+
+/* Compact header when followed by module hero */
+.site-header + .module-hero {
+  margin-top: 0;
 }
 
 .site-eyebrow {
@@ -55,15 +60,15 @@ body {
 
 .site-title {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
 
 .site-description {
-  margin: 0.4rem 0 1.25rem;
-  font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.85);
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .site-nav {
@@ -71,7 +76,8 @@ body {
   flex-wrap: wrap;
   gap: 1.25rem;
   font-weight: 600;
-  align-items: center;
+  font-size: 0.95rem;
+  align-items: baseline;
 }
 
 .site-nav > a,
@@ -81,6 +87,8 @@ body {
   border-bottom: 2px solid transparent;
   padding-bottom: 0.15rem;
   transition: border-bottom-color 0.15s;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .site-nav > a:hover,
@@ -129,9 +137,10 @@ body {
 
 /* ── Module Hero Banner ── */
 .module-hero {
-  padding: 2.5rem 0 2rem;
+  padding: 2rem 0 1.75rem;
   color: #ffffff;
   margin-bottom: 0;
+  border-top: 3px solid rgba(255,255,255,0.15);
 }
 
 .module-number {
@@ -485,6 +494,14 @@ main li,
   color: var(--accent-blue);
 }
 
+.experiment-card p {
+  margin-bottom: 0.6rem;
+}
+
+.experiment-card p strong {
+  color: var(--accent-blue);
+}
+
 .experiment-label {
   display: inline-block;
   background: var(--terracotta);
@@ -506,6 +523,11 @@ main li,
   padding: 1.5rem;
   margin: 1.5rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 320px !important;
 }
 
 .chart-simulated-label {
@@ -736,20 +758,20 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  margin: 1.5rem 0;
-  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 2rem 0;
+  flex-wrap: nowrap;
 }
 
 .flow-box {
   background: #ffffff;
   border: 2px solid var(--light-gray);
   border-radius: 8px;
-  padding: 0.6rem 1rem;
-  font-size: 0.88rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.78rem;
   font-weight: 600;
   text-align: center;
-  min-width: 100px;
+  white-space: nowrap;
 }
 
 .flow-box.accent-1 { border-color: var(--accent-blue); color: var(--accent-blue); }
@@ -757,6 +779,13 @@ hr {
 .flow-box.accent-3 { border-color: var(--soft-teal); color: var(--soft-teal); }
 
 .flow-arrow {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .flow-diagram {
+    flex-wrap: wrap;
+  }
 }

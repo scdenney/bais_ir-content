@@ -135,23 +135,9 @@ The lesson: any analysis of North Korean nuclearization that relies on only one 
 
 ## The Framing Experiment
 
-This module's classroom experiment tests whether the way we talk about nuclear weapons shapes what we believe about them.
+This module includes a live framing experiment. Students are randomly assigned to read a passage framing nuclear weapons as a stabilizing force, an existential threat, or a neutral overview — then answer the same questions about nuclear safety. The results show that the Waltz–Sagan debate maps onto a genuine perceptual split that can be induced by a single paragraph of narrative framing.
 
-Before the lecture begins, students take a short anonymous survey on their phones. Unbeknownst to them, they are randomly assigned to one of three groups, each of which reads a different passage about nuclear weapons:
-
-- **Group A (Stability framing)** reads about nuclear deterrence as a stabilizing force: no two nuclear-armed states have gone to war, the "long peace" of the Cold War was maintained by mutual deterrence, and even India-Pakistan crises were contained by nuclear caution.
-
-- **Group B (Danger framing)** reads about nuclear weapons as an existential threat: the 1983 Soviet false alarm, the 1961 North Carolina near-detonation, the February 2026 expiration of New START, and the warning that each new nuclear state increases the probability of accident or miscalculation.
-
-- **Group C (Control)** reads a neutral factual summary: nine states possess nuclear weapons, the global stockpile peaked at ~70,000 and has declined to ~12,500, and scholars continue to debate the implications.
-
-All three groups then answer the same five questions about whether nuclear weapons prevent war, whether deterrence is reliable, whether proliferation increases danger, and whether the world is safer with or without them.
-
-Their responses are scored into a single **Nuclear Safety Perception Score** from 1 (views nuclear weapons as highly destabilizing) to 5 (views them as highly stabilizing).
-
-After the break, we look at the results together. The pattern is telling: students who read the stability passage score the world as significantly safer than students who read the danger passage — even though every student came into the room having done the same readings and having the same background knowledge.
-
-The pedagogical point is sharp. The Waltz-Sagan debate is not just an academic disagreement about deterrence theory. It maps onto a genuine perceptual split that can be **induced by narrative framing**. How we describe nuclear weapons — which historical examples we cite, which analogies we reach for, which risks we foreground — shapes what people believe about whether the world is safe. That's a constructivist insight with real policy consequences: the rhetoric of deterrence is not just commentary on reality. It actively constitutes what people take reality to be.
+See the full experiment design, methodology, and illustrative results on the [Experiments]({{ '/experiments' | relative_url }}) page.
 
 ---
 

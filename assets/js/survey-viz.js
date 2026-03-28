@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function renderBarChart(container, experiment) {
   var canvas = document.createElement('canvas');
-  canvas.style.maxHeight = '340px';
   container.appendChild(canvas);
 
   var conditions = Object.values(experiment.conditions);
@@ -62,7 +61,7 @@ function renderBarChart(container, experiment) {
     },
     options: {
       responsive: true,
-      maintainAspectRatio: true,
+      maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
         title: {
@@ -152,7 +151,6 @@ function seededRandom(seed) {
 
 function renderStripChart(container, experiment) {
   var canvas = document.createElement('canvas');
-  canvas.style.maxHeight = '320px';
   container.appendChild(canvas);
 
   var conditions = Object.values(experiment.conditions);
@@ -193,7 +191,7 @@ function renderStripChart(container, experiment) {
     data: { datasets: datasets },
     options: {
       responsive: true,
-      maintainAspectRatio: true,
+      maintainAspectRatio: false,
       plugins: {
         legend: {
           labels: {

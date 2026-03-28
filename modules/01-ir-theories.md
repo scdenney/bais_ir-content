@@ -183,25 +183,9 @@ No single lens captures the full picture. The skill is knowing when each is most
 
 ## The Framing Experiment
 
-Before the lecture begins, students scan a QR code and take a short anonymous survey on their phones. What they do not know is that the survey contains a randomized experiment built directly into it.
+This module includes a live, randomized framing experiment run during class. Students are randomly assigned to read a Hobbesian, Lockean, or neutral description of U.S.–China relations — then answer the same questions about whether cooperation is possible. The results reveal, in students' own data, that a single paragraph of framing measurably shifts perception. It's the constructivist insight made visceral.
 
-Here is how it works. Every student is randomly assigned -- by the survey software, not by the instructor -- to one of three groups. Each group reads a short analyst brief about U.S.-China relations, framed to sound like a credible policy assessment. But the briefs are different:
-
-- **Group A (Control)** reads a neutral factual summary: the U.S. and China are the world's two largest economies, both sit on the UN Security Council, and they communicate through formal channels.
-- **Group B (Hobbesian framing)** reads a brief emphasizing rivalry and threat: China's naval expansion challenges U.S. dominance, historical parallels suggest rising powers rarely overtake established ones peacefully, and a cycle of mistrust is deepening.
-- **Group C (Lockean framing)** reads a brief emphasizing cooperation and institutional resilience: the two countries reached new climate agreements, restored military communication channels, and have repeatedly chosen negotiation over escalation.
-
-After reading their assigned brief, all three groups answer the same five questions about whether they think U.S.-China cooperation is possible, whether competition is inevitable, whether institutions can manage the relationship, and whether economic ties make conflict unlikely.
-
-Their answers are scored into a single **Cooperation Perception Score** ranging from 1 (deeply pessimistic) to 5 (strongly optimistic).
-
-Then comes the reveal.
-
-After the break, the instructor pulls up the live results. The class sees, in their own aggregated data, that students who read the Hobbesian brief rated the likelihood of cooperation significantly lower than students who read the Lockean brief -- even though all students came into the room with the same background knowledge and the same readings. A single paragraph, read for thirty seconds, measurably shifted how they perceived an entire geopolitical relationship.
-
-The classroom reaction is immediate. Students realize they were part of an experiment. They see their own susceptibility to framing laid bare in the bar charts on screen. And then the theoretical connection lands: this is exactly what Wendt is talking about. If a short paragraph can move your perception of whether two states will cooperate or fight, then the way political leaders, media, and analysts *describe* the world does not just reflect reality -- it actively shapes what people believe is possible. Anarchy is, in a very literal and demonstrable sense, what we make of it.
-
-The experiment is not a thought exercise or a hypothetical. It is a live demonstration, conducted in the classroom, using the students' own responses as the data. It makes the constructivist insight tangible in a way that no reading assignment can.
+See the full experiment design, methodology, and illustrative results on the [Experiments]({{ '/experiments' | relative_url }}) page.
 
 ---
 
