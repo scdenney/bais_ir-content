@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="site-eyebrow">Leiden University · BA International Studies</p>
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="site-description">{{ site.description }}</p>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/approach' | relative_url }}">Approach</a>
+          <div class="nav-dropdown">
+            <a href="{{ '/modules/' | relative_url }}" class="nav-dropdown-toggle">Modules &#9662;</a>
+            <div class="nav-dropdown-content">
+              <a href="{{ '/modules/01-ir-theories' | relative_url }}">1 · IR Theories</a>
+              <a href="{{ '/modules/02-security-proliferation' | relative_url }}">2 · Security &amp; Nukes</a>
+              <a href="{{ '/modules/03-nonwestern-ir' | relative_url }}">3 · Non-Western IR</a>
+              <a href="{{ '/modules/04-nation-race-gender' | relative_url }}">4 · Nation, Race, Gender</a>
+              <a href="{{ '/modules/05-society-global-age' | relative_url }}">5 · Society in a Global Age</a>
+              <a href="{{ '/modules/06-anthropocene' | relative_url }}">6 · The Anthropocene</a>
+            </div>
+          </div>
+          <a href="{{ '/experiments' | relative_url }}">Experiments</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="module-hero" style="background-color: {{ page.accent }};">
+      <div class="container">
+        <span class="module-number">Module {{ page.module }}</span>
+        <h2 class="module-title">{{ page.title }}</h2>
+        {% if page.subtitle %}<p class="module-subtitle">{{ page.subtitle }}</p>{% endif %}
+        <div class="module-themes">
+          {% for theme in page.themes %}
+          <span class="theme-tag">{{ theme }}</span>
+          {% endfor %}
+        </div>
+        {% if page.syllabus_weeks %}
+        <p class="module-weeks">Corresponds to {{ page.syllabus_weeks }} in the <a href="https://scdenney.github.io/assets/pdf/2526-bais-ir.pdf">AY 2025–2026 syllabus</a></p>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-layout">
+        <aside class="page-sidebar">
+          <div class="page-sidebar-inner">
+            <h4 class="page-sidebar-title">On this page</h4>
+            <nav class="page-toc" id="toc">
+              <!-- Populated by JS -->
+            </nav>
+          </div>
+        </aside>
+        <main class="page-content">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    <nav class="module-nav container">
+      {% if page.prev_module %}
+      <a href="{{ page.prev_module | relative_url }}" class="module-nav-link module-nav-prev">&larr; {{ page.prev_title }}</a>
+      {% else %}
+      <span></span>
+      {% endif %}
+      {% if page.next_module %}
+      <a href="{{ page.next_module | relative_url }}" class="module-nav-link module-nav-next">{{ page.next_title }} &rarr;</a>
+      {% endif %}
+    </nav>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-disclaimer">This site documents course content for display and educational purposes only. It is not a syllabus. For official course information, see the <a href="https://scdenney.github.io/assets/pdf/2526-bais-ir.pdf">syllabus</a>.</p>
+        <p class="footer-credit">Steven Denney · Institute for Area Studies · Leiden University</p>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/scroll-effects.js' | relative_url }}"></script>
+    <script>
+      // Build TOC from h2 elements
+      document.addEventListener('DOMContentLoaded', function() {
+        const toc = document.getElementById('toc');
+        const headings = document.querySelectorAll('.page-content h2');
+        if (headings.length === 0) return;
+        const ul = document.createElement('ul');
+        headings.forEach(function(h) {
+          if (!h.id) h.id = h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = '#' + h.id;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+        toc.appendChild(ul);
+      });
+    </script>
+  </body>
+</html>

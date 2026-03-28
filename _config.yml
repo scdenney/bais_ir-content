@@ -1,0 +1,7 @@
+title: "Teaching International Relations"
+description: "Course content, pedagogy, and classroom innovation"
+theme: jekyll-theme-cayman
+baseurl: /bais_ir-content
+show_downloads: false
+markdown: kramdown
+highlighter: rouge
