@@ -31,8 +31,9 @@
       </div>
     </header>
 
-    <div class="module-hero" style="background-color: {{ page.accent }};">
+    <div class="module-hero">
       <div class="container">
+        <span class="module-accent-bar" style="background-color: {{ page.accent }};"></span>
         <span class="module-number">Module {{ page.module }}</span>
         <h2 class="module-title">{{ page.title }}</h2>
         {% if page.subtitle %}<p class="module-subtitle">{{ page.subtitle }}</p>{% endif %}
