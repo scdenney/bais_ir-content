@@ -144,17 +144,25 @@ function renderBarChart(container, experiment) {
   });
 }
 
+// Deterministic pseudo-random jitter so strip charts look the same on every load
+function seededRandom(seed) {
+  var x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
 function renderStripChart(container, experiment) {
   var canvas = document.createElement('canvas');
   canvas.style.maxHeight = '320px';
   container.appendChild(canvas);
 
   var conditions = Object.values(experiment.conditions);
+  var jitterSeed = 42;
   var datasets = conditions.map(function (cond, i) {
     return {
       label: cond.label,
-      data: cond.points.map(function (y) {
-        return { x: i + (Math.random() - 0.5) * 0.3, y: y };
+      data: cond.points.map(function (y, j) {
+        jitterSeed++;
+        return { x: i + (seededRandom(jitterSeed + i * 100 + j) - 0.5) * 0.3, y: y };
       }),
       backgroundColor: cond.color + '88',
       borderColor: cond.color,

@@ -71,7 +71,7 @@ The question of who belongs to the nation is never answered in purely political 
 
 The classic typology distinguishes **civic nationalism** from **ethnic nationalism**. Civic nationalism defines membership through shared citizenship, political values, and participation in public life. It is, in principle, open to anyone who adopts the nation's beliefs and participates in its political community. Ethnic nationalism defines membership through ancestry, culture, and blood ties — common descent, language, or religion. It tends to be closed to outsiders, making it difficult or impossible for those outside the core lineage to join.
 
-This distinction is useful as a starting point, but it has serious limits. The most important is its **Eurocentric application**. The civic/ethnic dichotomy maps too neatly onto a West/non-West binary: France and the United States are treated as exemplars of civic nationalism, while Germany's historical *Volkisch* tradition and various Asian nationalisms (Korean *minjok*, Japanese *minzoku*) are classified as ethnic. This framing obscures the ethnic exclusions embedded within supposedly civic nations — the racial prerequisites for American citizenship that persisted until 1952, France's colonial subject-citizen distinction, the racialized policing of national belonging in every Western democracy. As the lecture materials note, the ethnic/civic dichotomy can be "ahistorically and Eurocentrically applied."
+This distinction is useful as a starting point, but it has serious limits. The most important is its **Eurocentric application**. The civic/ethnic dichotomy maps too neatly onto a West/non-West binary: France and the United States are treated as exemplars of civic nationalism, while Germany's historical *Volkisch* tradition and various Asian nationalisms (Korean *minjok*, Japanese *minzoku*) are classified as ethnic. This framing obscures the ethnic exclusions embedded within supposedly civic nations — the racial prerequisites for American citizenship that persisted until 1952, France's colonial subject-citizen distinction, the racialized policing of national belonging in every Western democracy. As Mylonas and Tudor (2023) note, the ethnic/civic dichotomy can be "ahistorically and Eurocentrically applied."
 
 Racialization works through nationalism in several registers. National narratives establish who counts as a prototypical member and who is marked as an outsider. Immigration policies, citizenship laws, language requirements, and cultural expectations all function as mechanisms of inclusion and exclusion. The question of **assimilation versus preservation** is central: host states have historically expected immigrants to adopt the language, values, and cultural norms of the majority nation. But many diaspora communities resist full assimilation in order to maintain their distinct identity. This tension — between the state's demand for cultural conformity and minority communities' insistence on self-preservation — recurs across national contexts, from Turkish communities in Germany to Korean communities in Japan to Latino communities in the United States.
 
@@ -89,25 +89,44 @@ Women are cast as **symbolic bearers of the nation's culture and honor**. They a
 
 The gendered structure of nationalism has direct implications for IR. It shapes who is recognized as a legitimate political actor, whose security concerns are taken seriously, and how concepts like sovereignty, protection, and sacrifice are understood. When IR theory treats the state as a unitary actor pursuing "national interests," it obscures the gendered processes through which those interests are defined — processes that systematically privilege male perspectives, militarized responses, and patriarchal institutional forms.
 
+---
+
 ## Comparative Cases
 
-### European Nationalisms: Civic Ideals and Ethnic Realities
+<details>
+<summary><strong>European Nationalisms: Civic Ideals and Ethnic Realities</strong></summary>
+<div>
 
 The civic/ethnic distinction is most often illustrated through European cases. France represents the civic ideal — membership through shared political values, *laicite*, and republican citizenship. Germany's historical tradition of *Volkisch* nationalism, rooted in blood and soil (*Blut und Boden*), represents the ethnic counterpart. But the contrast is less clean than the typology suggests. France's civic nationalism coexisted with a colonial empire built on racial hierarchy. Germany's postwar civic transformation demonstrates that ethnic nationalisms can evolve.
 
 The contemporary resurgence of right-wing nationalism across Europe — from the Rassemblement National in France to the Alternative for Germany (AfD) to Viktor Orban's Hungary — complicates the typology further. These movements deploy the language of cultural preservation and civilizational defense in ways that blur the civic/ethnic boundary, defining national belonging through cultural criteria (religion, language, "values") that function as proxies for ethnic exclusion.
 
-### Postcolonial Nation-Building: Korea's March First Movement
+</div>
+</details>
+
+<details>
+<summary><strong>Postcolonial Nation-Building: Korea's March First Movement</strong></summary>
+<div>
 
 Korea's March First Movement (1919) illustrates nationalism as a force of liberation. Under Japanese colonial rule, Koreans mobilized in a mass independence movement that drew on Wilsonian principles of self-determination. The movement was a genuine expression of popular sovereignty — a colonized people asserting their right to self-governance.
 
 But Korean nationalism also illustrates the complexities that postcolonial theory highlights. The concept of *minjok* (ethnic nation) that animated Korean nationalism was itself shaped by colonial-era intellectual exchanges. The emphasis on ethnic homogeneity that became central to Korean national identity served the project of anticolonial resistance, but it also produced exclusionary pressures that persist in contemporary South Korean debates over immigration and multiculturalism.
 
-### Contemporary Populist Nationalism
+</div>
+</details>
+
+<details>
+<summary><strong>Contemporary Populist Nationalism</strong></summary>
+<div>
 
 The post-Cold War era has seen a global resurgence of populist nationalism, defying predictions that globalization would weaken national attachments. Griffiths and Sullivan's observation about the "Janus-faced" nature of nationalism — simultaneously constituting and destabilizing the international order — finds new expression in contemporary politics.
 
 Russian nationalism under Putin illustrates how national pride and grievance can be mobilized for expansionist purposes. South Korea's 2024 martial law declaration by President Yoon Suk Yeol invoked the language of national protection against internal enemies. In the United States, debates over immigration, assimilation, and dual loyalty reveal ongoing contestation over who truly "belongs" to the nation and what obligations membership entails. Each case demonstrates that nationalism remains a potent force in world politics — not a relic of the nineteenth century but an active, evolving element of the contemporary international order.
+
+</div>
+</details>
+
+---
 
 ## Connecting the Threads
 

@@ -18,6 +18,8 @@ This is the concluding module of the course — a forward-looking session that a
 
 The Anthropocene — the proposed geological epoch defined by humanity's impact on Earth's systems — provides the organizing frame. But the module isn't only about climate. It's about the full range of emerging challenges that IR theory must grapple with: artificial intelligence and autonomous systems, space governance, mass migration driven by ecological collapse, and the deepening tension between technological acceleration and democratic governance.
 
+---
+
 ## Key Questions
 
 These are the questions that structure the session:
@@ -29,6 +31,8 @@ These are the questions that structure the session:
 - **Can we imagine differently?** If the current theoretical toolkit has limits, what would a genuinely future-oriented IR look like? What would it borrow from critical theory, from indigenous knowledge systems, from the natural sciences?
 
 - **Technology as a political actor.** AI, autonomous weapons, surveillance infrastructure, platform governance — these aren't just tools that states use. They reshape the conditions under which politics happens. How should IR theory account for non-human agency?
+
+---
 
 ## Connecting the Threads
 
@@ -44,14 +48,18 @@ This module is deliberately synthetic. It draws on every preceding module:
 
 - **From Module 5 (Society in a Global Age):** Beck's "risk society" was written for precisely this moment. Rodrik's trilemma acquires new dimensions when the policy challenge is planetary rather than national.
 
+---
+
 ## Content in Development
 
 This module will be taught for the first time in the AY 2025–2026 cycle. Content will be added here as the session is developed. Planned elements include:
 
-- A curated reading list on IR theory and the Anthropocene
+- Curated reading list on IR theory and the Anthropocene
 - Case applications: the Paris Agreement, AI governance debates, climate migration, space law
-- A possible framing experiment on intergenerational justice or climate risk perception
+- Framing experiment on intergenerational justice or climate risk perception
 - Visual materials on the uneven geography of climate vulnerability
+
+---
 
 <details>
 <summary>Preliminary Reading List</summary>

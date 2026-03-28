@@ -20,7 +20,7 @@ The first module of this course posed three competing visions of the post-Cold W
 
 The answer, as the readings make clear, is not reassuring. Globalization has produced extraordinary connectivity, but also extraordinary dislocation. The thinning of traditional communities, the rise of precarious labor, and the erosion of stable frameworks for meaning have created conditions in which millions of people feel abandoned by the very forces that were supposed to liberate them. That abandonment has political consequences: populism, extremism, and a worldwide crisis of democratic legitimacy.
 
-Three frameworks structure the session. Dani Rodrik provides the political economy: his "globalization trilemma" shows why deep economic integration, national sovereignty, and democratic politics cannot coexist simultaneously. Pankaj Mishra provides the psychology: his account of the "globalization of rage" reveals how economic dislocation produces not just poverty but humiliation, and how humiliation produces not just discontent but fury. And the sociological work of Ulrich Beck and Zygmunt Bauman provides the backdrop: a world of manufactured risks, liquid institutions, and identities unmoored from the structures that once gave them stability.
+Three frameworks structure the session. Dani Rodrik (2011; 2018) provides the political economy: his "globalization trilemma" shows why deep economic integration, national sovereignty, and democratic politics cannot coexist simultaneously. Pankaj Mishra (2017) provides the psychology: his account of the "globalization of rage" reveals how economic dislocation produces not just poverty but humiliation, and how humiliation produces not just discontent but fury. And the sociological work of Ulrich Beck (2006) and Zygmunt Bauman (2000) provides the backdrop: a world of manufactured risks, liquid institutions, and identities unmoored from the structures that once gave them stability.
 
 Together, these frameworks reveal the dark underside of the interconnected world — and force us to reckon with a question IR theory too often avoids: what happens when the politics of pain overwhelms the politics of interest?
 
@@ -95,6 +95,8 @@ Social media creates what Eli Pariser called "filter bubbles" — algorithmic en
 The result is a paradox. We are more connected than ever — but connection does not automatically produce community. Digital platforms can sustain new forms of solidarity: diasporic networks, transnational activist coalitions, communities of shared interest that transcend geography. But they can also deepen atomism — producing a society of disconnected, self-interested individuals who consume politics as spectacle rather than participating in it as citizens.
 
 For the themes of this module, the implications are direct. The thinning of social life that Heywood and Whitham describe is accelerated by digital technology. The manufactured risks that Beck identifies are amplified by information ecosystems that spread fear faster than understanding. The rage that Mishra diagnoses finds new audiences and new channels through platforms designed to maximize emotional response. And Rodrik's democratic deficit is compounded when the public sphere itself is fractured into incompatible realities.
+
+---
 
 ## Connecting the Threads
 

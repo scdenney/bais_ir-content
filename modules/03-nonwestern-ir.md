@@ -26,7 +26,7 @@ This module explores what a genuinely global IR might look like: one that draws 
 
 ## The Problem: IR as "American Social Science"
 
-In 1977, Stanley Hoffmann called IR "an American social science." The observation remains accurate. The discipline's leading journals, its dominant methods, its canonical texts, and its institutional infrastructure are overwhelmingly located in the United States and Western Europe.
+Stanley Hoffmann (1977) called IR "an American social science." The observation remains accurate. The discipline's leading journals, its dominant methods, its canonical texts, and its institutional infrastructure are overwhelmingly located in the United States and Western Europe.
 
 This matters because it shapes what counts as knowledge. The concepts that IR treats as universal — anarchy, the balance of power, sovereignty, the security dilemma — are rooted in a particular historical experience: the European state system as it developed after Westphalia. They are useful concepts. But they are not the only way to conceptualize political order, and when applied unreflectively to non-Western contexts, they can obscure more than they reveal.
 
@@ -76,13 +76,41 @@ This is not the Westphalian state. There are no fixed borders, no exclusive terr
 
 The claim that non-Western IR theory "doesn't exist" reflects ignorance, not absence. Several intellectual traditions outside the Western canon have long engaged with questions of statecraft, order, war, and governance.
 
-**Kautilya** (c. 4th century BCE) authored the *Arthashastra*, a treatise on statecraft, economic policy, and military strategy from ancient India. Often compared to Machiavelli, Kautilya was writing on realpolitik nearly two millennia earlier. His work addresses alliance formation, espionage, fiscal policy, and the management of conquered territories — questions that IR claims to have discovered in the twentieth century.
+<details>
+<summary><strong>Kautilya</strong> (c. 4th century BCE)</summary>
+<div>
 
-**Ibn Khaldun** (1332–1406) wrote the *Muqaddimah*, a theory of history, state formation, and the rise and fall of civilizations. His concept of *asabiyyah* — social cohesion or group solidarity — explains how political communities form, consolidate, and eventually decay. It is a theory of political order with no equivalent in the Western IR canon, and it predates European state theory by centuries.
+Kautilya authored the *Arthashastra*, a treatise on statecraft, economic policy, and military strategy from ancient India. Often compared to Machiavelli, Kautilya was writing on realpolitik nearly two millennia earlier. His work addresses alliance formation, espionage, fiscal policy, and the management of conquered territories — questions that IR claims to have discovered in the twentieth century.
 
-**Confucian political thought** provides a framework for understanding governance, hierarchy, and moral order that has shaped East Asian statecraft for millennia. Confucian ideas about benevolent governance, the rectification of names, and the mandate of heaven offer a theory of political legitimacy fundamentally different from the social-contract tradition that underpins Western IR.
+</div>
+</details>
 
-**Mahbub ul Haq** (1934–1998), a Pakistani economist, was the principal architect of the UNDP's Human Development Report and the Human Development Index. More importantly for IR, the 1994 Report introduced the concept of **human security** — shifting the analytical focus from state security to individual well-being. Human security is now mainstream in policy discourse. It is a non-Western contribution to global governance that most IR textbooks cite without acknowledging its origins.
+<details>
+<summary><strong>Ibn Khaldun</strong> (1332–1406)</summary>
+<div>
+
+Ibn Khaldun wrote the *Muqaddimah*, a theory of history, state formation, and the rise and fall of civilizations. His concept of *asabiyyah* — social cohesion or group solidarity — explains how political communities form, consolidate, and eventually decay. It is a theory of political order with no equivalent in the Western IR canon, and it predates European state theory by centuries.
+
+</div>
+</details>
+
+<details>
+<summary><strong>Confucian political thought</strong></summary>
+<div>
+
+Confucian political thought provides a framework for understanding governance, hierarchy, and moral order that has shaped East Asian statecraft for millennia. Confucian ideas about benevolent governance, the rectification of names, and the mandate of heaven offer a theory of political legitimacy fundamentally different from the social-contract tradition that underpins Western IR.
+
+</div>
+</details>
+
+<details>
+<summary><strong>Mahbub ul Haq</strong> (1934–1998)</summary>
+<div>
+
+Mahbub ul Haq, a Pakistani economist, was the principal architect of the UNDP's Human Development Report and the Human Development Index. More importantly for IR, the 1994 Report introduced the concept of **human security** — shifting the analytical focus from state security to individual well-being. Human security is now mainstream in policy discourse. It is a non-Western contribution to global governance that most IR textbooks cite without acknowledging its origins.
+
+</div>
+</details>
 
 ---
 
@@ -123,6 +151,8 @@ The goal is what Acharya, borrowing from Dipesh Chakrabarty, calls **deprovincia
 
 The debate about Asian regional order illustrates concretely why the theoretical toolkit matters. Three prominent accounts reach fundamentally different conclusions — and the differences trace directly to the theories they import.
 
+---
+
 | Dimension | Friedberg (Neorealist) | Kang (Hierarchical) | Acharya (Global IR) |
 |---|---|---|---|
 | **Historical analogy** | Pre-1914 Europe | Pre-colonial East Asian tribute system | ASEAN's post-1967 institutional order |
@@ -138,6 +168,8 @@ The debate about Asian regional order illustrates concretely why the theoretical
 **Acharya's critique** is the sharpest: both Friedberg and Kang import Western theoretical categories — balancing vs. bandwagoning — and apply them to Asia. Neither asks what Asian states are actually doing. The answer, Acharya argues, is **engagement**: ASEAN states are not balancing against China or bandwagoning with it. They are **enmeshing both China and the United States in regional institutions** — the ASEAN Regional Forum, the East Asia Summit, ASEAN+3 — to constrain both great powers and prevent being forced to choose sides.
 
 This "double-binding" strategy has no clean equivalent in standard IR theory. It is not balancing. It is not bandwagoning. It is a distinctly Southeast Asian approach to managing great-power competition — one that has maintained regional stability for decades despite enormous power asymmetries.
+
+---
 
 ### Global IR in Practice
 
@@ -158,7 +190,9 @@ Korea's postcolonial experience is "twisted" in a specific sense: it was coloniz
 
 After liberation in 1945, Korea rejected Japanese knowledge systems — understandably. But it also rejected traditional Korean systems (Confucian, Sinocentric) because these were associated with the pre-modern order that had failed to prevent colonization. The result was an intellectual vacuum filled by **American IR**. Korean scholars trained in American PhD programs, adopted American methods and theories, and built Korean IR in the American image. This was a rational response: Korea was a war-torn state dependent on the U.S. for its survival. Adopting the patron's worldview was not just intellectual choice — it was structural necessity.
 
-The consequences persist. Korean IR scholars face a **double bind**:
+### The Double Bind
+
+Korean IR scholars face a **double bind**:
 
 - **Universality-focused scholars** do rigorous, quantitative, SSCI-publishable work that gains international recognition — but contributes to American IR theory from a Korean institutional base, without challenging the Western framework.
 - **Particularity-focused scholars** study Korean security, Korean history, Korean foreign policy — but their work is policy-oriented and read primarily by domestic audiences. It does not travel internationally and does not contribute to IR theory as such.

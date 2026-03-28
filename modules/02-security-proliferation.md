@@ -32,7 +32,9 @@ The logic is straightforward. Under anarchy, states cannot be certain of each ot
 
 The nuclear dimension amplifies this dynamic. During the Cold War, the U.S. and Soviet Union went from a handful of nuclear weapons in the late 1940s to a combined stockpile of approximately 70,000 warheads by the mid-1980s. Each new weapon system — MIRVed warheads, submarine-launched missiles, precision guidance — was justified as a necessary response to the other side's capabilities. The result was a balance of terror that nearly broke down on multiple occasions.
 
-The 1962 Cuban Missile Crisis is the canonical example. The 1983 Soviet false alarm — when a satellite malfunction indicated incoming U.S. missiles, and only the judgment of duty officer Stanislav Petrov prevented a retaliatory launch — is arguably the more chilling one. In 1961, a U.S. B-52 carrying two hydrogen bombs broke apart over North Carolina; one bomb's arming sequence progressed through all but one of its safety interlocks.
+- The **1962 Cuban Missile Crisis** is the canonical example.
+- The **1983 Soviet false alarm** — when a satellite malfunction indicated incoming U.S. missiles, and only the judgment of duty officer Stanislav Petrov prevented a retaliatory launch — is arguably the more chilling one.
+- In **1961**, a U.S. B-52 carrying two hydrogen bombs broke apart over North Carolina; one bomb's arming sequence progressed through all but one of its safety interlocks.
 
 These incidents are not aberrations. They are what the security dilemma produces when the stakes are existential.
 
@@ -44,7 +46,7 @@ The central intellectual debate of this module asks a deceptively simple questio
 
 ### The Optimist: Kenneth Waltz
 
-Kenneth Waltz argued that nuclear proliferation increases stability. His position, summarized as **"more may be better,"** rests on the logic of deterrence:
+Kenneth Waltz (1981) argued that nuclear proliferation increases stability. His position, summarized as **"more may be better,"** rests on the logic of deterrence:
 
 - Nuclear weapons make the cost of war catastrophic and obvious. When both sides possess them, neither can rationally initiate conflict.
 - The historical record supports this: no two nuclear-armed states have ever gone to war with each other. The "long peace" of the Cold War — the longest period without great-power war in modern history — coincided with the nuclear age.
@@ -55,7 +57,7 @@ Waltz's position is provocative precisely because it runs counter to common intu
 
 ### The Pessimist: Scott Sagan
 
-Scott Sagan argues that nuclear proliferation increases danger. His position, **"more will be worse,"** rests on a fundamentally different set of assumptions about how states actually behave:
+Scott Sagan (1996) argues that nuclear proliferation increases danger. His position, **"more will be worse,"** rests on a fundamentally different set of assumptions about how states actually behave:
 
 - Waltz's argument assumes rational, unitary state actors. Sagan argues this is naive. Real states are not monolithic decision-makers. They are complex organizations with competing bureaucratic interests, information asymmetries, and communication failures.
 - **Organizational pathologies** make accidents, unauthorized use, and miscalculation far more likely than rational deterrence theory admits. Military organizations develop standard operating procedures optimized for offensive readiness, not cautious restraint.
@@ -143,7 +145,9 @@ Before the lecture begins, students take a short anonymous survey on their phone
 
 - **Group C (Control)** reads a neutral factual summary: nine states possess nuclear weapons, the global stockpile peaked at ~70,000 and has declined to ~12,500, and scholars continue to debate the implications.
 
-All three groups then answer the same five questions about whether nuclear weapons prevent war, whether deterrence is reliable, whether proliferation increases danger, and whether the world is safer with or without them. Their responses are scored into a single **Nuclear Safety Perception Score** from 1 (views nuclear weapons as highly destabilizing) to 5 (views them as highly stabilizing).
+All three groups then answer the same five questions about whether nuclear weapons prevent war, whether deterrence is reliable, whether proliferation increases danger, and whether the world is safer with or without them.
+
+Their responses are scored into a single **Nuclear Safety Perception Score** from 1 (views nuclear weapons as highly destabilizing) to 5 (views them as highly stabilizing).
 
 After the break, we look at the results together. The pattern is telling: students who read the stability passage score the world as significantly safer than students who read the danger passage — even though every student came into the room having done the same readings and having the same background knowledge.
 

@@ -72,7 +72,7 @@ Robert Keohane and Joseph Nye developed this into the concept of **complex inter
 
 ### Republican Liberalism
 
-Republican liberalism focuses on **domestic political institutions** as the key to international peace. The core finding is the **democratic peace thesis**: democracies virtually never go to war with one another. Michael Doyle's landmark articles in the 1980s traced this insight back to Immanuel Kant's *Perpetual Peace* (1795), arguing that democratic institutions -- elections, free press, legislative oversight -- create checks on leaders that make war less likely. Authoritarian regimes lack these constraints.
+Republican liberalism focuses on **domestic political institutions** as the key to international peace. The core finding is the **democratic peace thesis**: democracies virtually never go to war with one another. Michael Doyle's landmark articles (1983, 1986) traced this insight back to Immanuel Kant's *Perpetual Peace* (1795), arguing that democratic institutions -- elections, free press, legislative oversight -- create checks on leaders that make war less likely. Authoritarian regimes lack these constraints.
 
 This does not mean democracies are pacifist. They fight wars with non-democracies. The claim is narrower and more empirically robust: the internal structure of democratic governance creates a "separate peace" among liberal states.
 
@@ -147,6 +147,8 @@ In early 2026, Trump threatened tariffs against Denmark over Greenland. Each tra
 - **Liberal lens**: The threat undermines the rules-based trade system and strains alliance institutions (Denmark is a NATO ally). It raises questions about whether economic interdependence constrains or empowers coercive behavior.
 - **Constructivist lens**: The episode challenges norms of sovereignty and territorial integrity. The framing of Greenland as a "deal" rather than a sovereign territory reflects a particular identity and worldview -- one that other states found alarming precisely because it violated shared understandings about how states relate to each other.
 
+---
+
 ### European Leaders Visit Beijing
 
 As U.S. engagement with multilateral institutions declined, European leaders traveled to Beijing to strengthen diplomatic and economic ties.
@@ -155,6 +157,8 @@ As U.S. engagement with multilateral institutions declined, European leaders tra
 - **Liberal lens**: Economic interdependence drives the visits. European economies depend on trade with China, and leaders seek to maintain market access and supply chain stability through diplomatic engagement.
 - **Constructivist lens**: The visits signal a deeper shift in how European states see themselves. If European identity was previously anchored in the transatlantic relationship, the turn to Beijing may reflect a renegotiation of that identity -- a move toward strategic autonomy that changes how Europe defines its interests.
 
+---
+
 ### NATO and the 5% Benchmark
 
 NATO's discussion of raising the defense spending target from 2% to 5% of GDP came as the U.S. signaled it would deprioritize European security.
@@ -162,6 +166,8 @@ NATO's discussion of raising the defense spending target from 2% to 5% of GDP ca
 - **Realist lens**: Alliance burden-sharing is a perennial realist concern. States free-ride when they can and spend when they must. The 5% target reflects European states responding to the reality that American security guarantees can no longer be taken for granted.
 - **Liberal lens**: This is institutional adaptation. NATO as an institution is adjusting its norms and expectations to new circumstances -- exactly what neoliberal institutionalists would predict robust institutions do.
 - **Constructivist lens**: Raising the benchmark signals a transformation in European security identity. States that long defined themselves as post-military, trading powers are reconstituting their identities around defense and strategic capacity. The number itself is a social construction -- a signal about commitment and solidarity, not just a spending figure.
+
+---
 
 ### Ukraine-Russia
 
@@ -185,7 +191,9 @@ Here is how it works. Every student is randomly assigned -- by the survey softwa
 - **Group B (Hobbesian framing)** reads a brief emphasizing rivalry and threat: China's naval expansion challenges U.S. dominance, historical parallels suggest rising powers rarely overtake established ones peacefully, and a cycle of mistrust is deepening.
 - **Group C (Lockean framing)** reads a brief emphasizing cooperation and institutional resilience: the two countries reached new climate agreements, restored military communication channels, and have repeatedly chosen negotiation over escalation.
 
-After reading their assigned brief, all three groups answer the same five questions about whether they think U.S.-China cooperation is possible, whether competition is inevitable, whether institutions can manage the relationship, and whether economic ties make conflict unlikely. Their answers are scored into a single **Cooperation Perception Score** ranging from 1 (deeply pessimistic) to 5 (strongly optimistic).
+After reading their assigned brief, all three groups answer the same five questions about whether they think U.S.-China cooperation is possible, whether competition is inevitable, whether institutions can manage the relationship, and whether economic ties make conflict unlikely.
+
+Their answers are scored into a single **Cooperation Perception Score** ranging from 1 (deeply pessimistic) to 5 (strongly optimistic).
 
 Then comes the reveal.
 
