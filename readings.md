@@ -9,7 +9,7 @@ description: "The required readings for six International Relations lectures and
   <div>
     <p class="eyebrow">Required texts · Spring 2026</p>
     <h1>Reading guide</h1>
-    <p class="lead">The required readings do different kinds of work. Textbook chapters establish a shared vocabulary; research articles introduce a mechanism, a disagreement, or a challenge to the field's usual scope.</p>
+    <p class="lead">Each required reading has a specific job. Textbook chapters establish a shared vocabulary. Research articles then develop a mechanism, frame a disagreement or question the field's usual scope.</p>
   </div>
   <dl class="hero-facts">
     <div><dt>Lectures covered</dt><dd>Weeks 2–4 and 10–12</dd></div>
@@ -35,7 +35,7 @@ description: "The required readings for six International Relations lectures and
   <h2 id="week-4-readings">Week 4 · Non-Western IR theory</h2>
   <div class="reading-list">
     <div class="reading-item"><span class="reading-type">Critique</span><div><p class="citation">Acharya, Amitav. 2003. “Will Asia's Past Be Its Future?” <em>International Security</em> 28(3): 149–164.</p><p class="reading-note">Questions whether European balance-of-power history supplies an adequate template for Asian regional order.</p></div></div>
-    <div class="reading-item"><span class="reading-type">Field debate</span><div><p class="citation">Acharya, Amitav. 2014. “International Relations Theory and the ‘Rise of Asia.’” In <em>The Oxford Handbook of the International Relations of Asia</em>.</p><p class="reading-note">Evaluates how Asia can test, extend, or generate theory rather than serve only as a site where Western theories are applied.</p></div></div>
+    <div class="reading-item"><span class="reading-type">Field debate</span><div><p class="citation">Acharya, Amitav. 2014. “International Relations Theory and the ‘Rise of Asia.’” In <em>The Oxford Handbook of the International Relations of Asia</em>.</p><p class="reading-note">Evaluates how Asia can test and extend theory. Acharya also asks how the region might generate concepts instead of serving only as a site for Western frameworks.</p></div></div>
   </div>
 
   <h2 id="week-10-readings">Week 10 · Nation, race, and gender</h2>
@@ -52,9 +52,9 @@ description: "The required readings for six International Relations lectures and
 
   <h2 id="week-12-readings">Week 12 · Global politics and the Anthropocene</h2>
   <div class="reading-list">
-    <div class="reading-item"><span class="reading-type">Course guide</span><div><p class="citation">Whitham, Ben, and Andrew Heywood. 2023. <em>Global Politics</em>, 3rd ed., discussion of contending global futures.</p><p class="reading-note">Supplies contrasting ways of organizing expectations about order, technology, ecology, and political change. The 2026 syllabus labels this “Chapter 21: Images of Global Futures,” but that number and title do not match the local third-edition table of contents; the unverified chapter citation is therefore not repeated here.</p></div></div>
+    <div class="reading-item"><span class="reading-type">Course guide</span><div><p class="citation">Whitham, Ben, and Andrew Heywood. 2023. <em>Global Politics</em>, 3rd ed., discussion of contending global futures.</p><p class="reading-note">Provides contrasting expectations about global order and political change, including the role of technology and ecology. The 2026 syllabus identifies the reading as “Chapter 21: Images of Global Futures.” That number and title do not match the table of contents in the local third edition, so this guide leaves the chapter citation unverified.</p></div></div>
     <div class="reading-item"><span class="reading-type">Core argument</span><div><p class="citation">Mitchell, Audra. 2017. “Is IR Going Extinct?” <em>European Journal of International Relations</em> 23(1): 3–25.</p><p class="reading-note">Argues that extinction and multispecies vulnerability expose limits in a discipline centered on human states and conventional security.</p></div></div>
   </div>
 
-  <p class="method-note"><strong>Reading status:</strong> this page lists required material for the six lectures documented here. Recommended readings and week-specific reading questions appear on the individual lecture pages.</p>
+  <p class="method-note">This page lists the required material for the six lectures covered here. The lecture pages include recommended readings and questions for each week.</p>
 </section>

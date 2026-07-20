@@ -2,19 +2,19 @@
 layout: default
 title: Teaching approach
 section: approach
-description: "How the six lectures connect theory, readings, cases, and classroom research."
+description: "How six lectures connect theory and readings with cases and classroom research."
 ---
 
 <header class="page-hero">
   <div>
     <p class="eyebrow">Course design</p>
     <h1>Teaching approach</h1>
-    <p class="lead">The lectures treat theory as an analytical practice: compare explanations, apply them to cases, examine the evidence behind them, and remain explicit about where their categories came from.</p>
+    <p class="lead">These lectures treat theory as analytical practice. Students compare explanations, apply them to cases and examine the supporting evidence. They also consider where the categories used in international relations came from.</p>
   </div>
   <dl class="hero-facts">
-    <div><dt>Unit of design</dt><dd>A question, not a list of terms</dd></div>
-    <div><dt>Classroom mode</dt><dd>Lecture, application, inquiry</dd></div>
-    <div><dt>Evidence</dt><dd>Texts, cases, aggregate survey data</dd></div>
+    <div><dt>Starting point</dt><dd>A question to investigate</dd></div>
+    <div><dt>Classroom mode</dt><dd>Lecture and applied inquiry</dd></div>
+    <div><dt>Evidence</dt><dd>Texts, cases and classroom data</dd></div>
   </dl>
 </header>
 
@@ -22,24 +22,24 @@ description: "How the six lectures connect theory, readings, cases, and classroo
   <h2 id="principles">Five design principles</h2>
 
   <ol class="takeaway-list">
-    <li><div><strong>Begin with a contestable question.</strong> Each session is organized around a problem—why states cooperate, why they acquire nuclear weapons, how nations define membership, or whose futures count—so concepts arrive as tools for answering it.</div></li>
-    <li><div><strong>Compare explanations on the same case.</strong> Theories become clearer when students see what each one emphasizes, what it treats as given, and what it cannot easily explain.</div></li>
-    <li><div><strong>Give readings distinct jobs.</strong> Textbook chapters establish a common map; research articles sharpen a controversy, supply a mechanism, or challenge the map's scope.</div></li>
-    <li><div><strong>Use classroom inquiry carefully.</strong> Survey experiments and knowledge checks make abstract claims observable, but small volunteer samples are pedagogical evidence—not population estimates.</div></li>
-    <li><div><strong>Make provenance part of theory.</strong> The course asks where the discipline's concepts were built, which historical cases they generalize from, and how alternative experiences might revise them.</div></li>
+    <li><div>Each session begins with a contestable question, such as why states cooperate or acquire nuclear weapons. Concepts enter as tools for answering that problem.</div></li>
+    <li><div>Students compare explanations on the same case. Holding the case constant clarifies what each theory emphasizes, takes for granted or struggles to explain.</div></li>
+    <li><div>Every reading has a distinct job. Textbook chapters establish the common vocabulary, while research articles specify a mechanism or challenge the scope of that framework.</div></li>
+    <li><div>Classroom inquiry requires careful interpretation. Survey experiments and knowledge checks make abstract claims observable, but small volunteer samples provide evidence about that class alone.</div></li>
+    <li><div>The course treats the origins of a concept as part of the theory. Students examine the historical cases on which the discipline's concepts were built and consider how other experiences might revise them.</div></li>
   </ol>
 
   <h2 id="classroom-sequence">A recurring classroom sequence</h2>
   <div class="lecture-map">
-    <div><strong>Orient</strong><p>Establish the puzzle, its contemporary stakes, and the vocabulary needed to compare explanations.</p></div>
-    <div><strong>Differentiate</strong><p>Work through the assumptions and causal logic of the main positions in the debate.</p></div>
-    <div><strong>Apply</strong><p>Use a current or historical case to show how the analytical choice changes what counts as relevant evidence.</p></div>
-    <div><strong>Interrogate</strong><p>Use a classroom study, discussion, or counterexample to test confidence in the argument.</p></div>
-    <div><strong>Synthesize</strong><p>Return to the opening question and state what can be concluded—and what remains unresolved.</p></div>
+    <div><strong>Orient</strong><p>Establish the puzzle and its contemporary stakes. Introduce the vocabulary needed to compare explanations.</p></div>
+    <div><strong>Differentiate</strong><p>Work through the assumptions behind the main positions and trace their causal logic.</p></div>
+    <div><strong>Apply</strong><p>Use a current or historical case to identify the evidence that each explanation treats as relevant.</p></div>
+    <div><strong>Interrogate</strong><p>Test confidence in the argument through a classroom study, discussion or counterexample.</p></div>
+    <div><strong>Synthesize</strong><p>Return to the opening question. State what the evidence supports and what remains unresolved.</p></div>
   </div>
 
   <h2 id="data-practice">Classroom data practice</h2>
-  <p>Participation in the classroom surveys is voluntary and the instruments are used for teaching. This site reports designs and high-level aggregate patterns only. It does not publish row-level responses, identifying fields, or open-text feedback. Results are described as classroom observations and are not generalized beyond the participating group.</p>
+  <p>Participation in the classroom surveys is voluntary, and the instruments are used for teaching. This site documents their designs without publishing response-level data, identifying fields or open-text feedback. Any reported result describes the participating class alone.</p>
 
-  <p class="method-note"><strong>Interpretation rule:</strong> random assignment can support a within-class comparison when implementation succeeds, but convenience participation, limited sample size, and multiple outcomes still constrain what the exercise establishes.</p>
+  <p class="method-note">Random assignment can support a within-class comparison when implementation succeeds. Convenience participation and limited sample size still constrain what the exercise establishes, especially when an instrument measures several outcomes.</p>
 </section>

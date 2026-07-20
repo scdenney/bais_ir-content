@@ -9,7 +9,7 @@ description: "Overviews of six International Relations lectures taught in BA Int
   <div>
     <p class="eyebrow">Six lectures · Twelve course weeks</p>
     <h1>Lectures</h1>
-    <p class="lead">Each lecture page makes the structure explicit: the puzzle, the route through the material, the required readings, the classroom study where one was used, and the conclusions students should be able to defend.</p>
+    <p class="lead">Each page identifies the lecture's main problem and follows the argument from readings to classroom inquiry. It closes with conclusions students should be able to defend.</p>
   </div>
   <dl class="hero-facts">
     <div><dt>Foundation block</dt><dd>Weeks 2–4</dd></div>
@@ -21,7 +21,7 @@ description: "Overviews of six International Relations lectures taught in BA Int
 <section class="content-section" aria-labelledby="foundations">
   <div class="section-heading">
     <h2 id="foundations">Foundations</h2>
-    <p>The first block establishes the main theoretical traditions, tests them against nuclear proliferation, and then asks whose histories became the discipline's default evidence.</p>
+    <p>The first block introduces the main theoretical traditions and applies them to nuclear proliferation. It then asks whose histories became the discipline's default evidence.</p>
   </div>
   <div class="module-grid">
     <a class="module-card" href="{{ '/modules/01-ir-theories' | relative_url }}"><div class="module-card-meta">01<span>Week 2</span></div><div class="module-card-body"><h3>Power, Institutions, and Ideas</h3><p>Traditional IR theories and the different worlds their assumptions make visible.</p></div></a>
@@ -33,7 +33,7 @@ description: "Overviews of six International Relations lectures taught in BA Int
 <section class="content-section" aria-labelledby="society-futures">
   <div class="section-heading">
     <h2 id="society-futures">Society and futures</h2>
-    <p>The second block shifts the level of analysis: from states and systems to membership, social dislocation, and the political work performed by imagined futures.</p>
+    <p>The second block shifts the level of analysis away from states and systems. It examines membership and social dislocation before asking how imagined futures shape politics in the present.</p>
   </div>
   <div class="module-grid">
     <a class="module-card" href="{{ '/modules/04-nation-race-gender' | relative_url }}"><div class="module-card-meta">04<span>Week 10</span></div><div class="module-card-body"><h3>Nation, Race, and Gender</h3><p>National identity as a political construction whose boundaries can exclude, flatten, or be renegotiated.</p></div></a>
