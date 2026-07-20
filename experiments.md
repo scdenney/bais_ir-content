@@ -1,227 +1,119 @@
 ---
 layout: default
-title: Experiments
-experiments: true
+title: Classroom studies
+section: studies
+description: "An accurate design record of the survey experiments, descriptive surveys, and structured exercises used across six International Relations lectures."
 ---
 
-<meta name="basepath" content="{{ site.baseurl }}">
-
-<div class="disclaimer-banner">
-  <strong>All data on this page is simulated.</strong> No real student responses are shown. Charts use illustrative data generated to demonstrate the experimental design. This is deliberate: students were not informed their responses would be publicly displayed, and publishing them would be an ethical violation.
-</div>
-
-## Why Run Experiments in a Lecture Hall?
-
-Most IR courses teach constructivism as a theory to be memorized: *"Ideas shape interests, framing matters, anarchy is what states make of it."* Students nod, take notes, and move on.
-
-I wanted something different. What if students could *experience* constructivism instead of just reading about it?
-
-That's the idea behind the in-class framing experiments I run in Modules 1–3. Each one works the same way:
-
-<div class="flow-diagram fade-in">
-  <div class="flow-box">Students scan a QR code</div>
-  <span class="flow-arrow">&#8594;</span>
-  <div class="flow-box accent-1">Randomly assigned to a condition</div>
-  <span class="flow-arrow">&#8594;</span>
-  <div class="flow-box accent-2">Read a framing vignette</div>
-  <span class="flow-arrow">&#8594;</span>
-  <div class="flow-box accent-3">Answer the same questions</div>
-</div>
-
-The facts are identical across conditions. Only the framing differs. After a break, I analyze the responses live and we look at whether the different framings shifted perception — often dramatically.
-
-The pedagogical payoff is immediate. When students see that their own responses diverged based on a paragraph they read five minutes ago, the constructivist claim about framing goes from abstract theory to lived experience. It also teaches survey methodology, experimental design, and data interpretation — skills that transfer well beyond IR.
-
----
-
-## The Design Logic
-
-Each experiment follows a **between-subjects randomized design**:
-
-- **Three conditions**: two theoretically motivated framings and one neutral control
-- **Random assignment**: Qualtrics assigns respondents in a 1:1:1 ratio
-- **Same outcome battery**: five Likert-scale items (1–5) measuring the dependent variable, with two reverse-coded items to reduce acquiescence bias
-- **Scoring**: mean of the five items after reverse-coding, producing a single composite score per respondent
-
-The framings are drawn directly from the theoretical material covered in each module. This is the key design choice: the experiment isn't a detour from the lecture — it *is* the lecture, running in parallel.
-
----
-
-## Experiment 1: Framing U.S.–China Relations
-
-<div class="experiment-card fade-in">
-
-### Module 1 · Traditional IR Theories
-
-**Research question:** Does framing U.S.–China relations through a Hobbesian lens (rivalry, security competition) versus a Lockean lens (cooperation, interdependence) shift students' perception of whether cooperation is possible?
-
-**Conditions:**
-
-<details>
-<summary>Control — "U.S.–China Relations: A Snapshot"</summary>
-<div>
-<p>A neutral description of bilateral trade volume, Security Council membership, military postures, and diplomatic channels. No evaluative framing.</p>
-</div>
-</details>
-
-<details>
-<summary>Hobbesian — "U.S.–China Relations: Growing Rivalry"</summary>
-<div>
-<p>Emphasizes naval competition, alliance strengthening (AUKUS, Quad), the historical pattern of rising-power conflict ("from Athens and Sparta to Germany and Britain"), and a "cycle of mistrust that diplomacy has so far failed to break."</p>
-</div>
-</details>
-
-<details>
-<summary>Lockean — "U.S.–China Relations: Channels of Cooperation"</summary>
-<div>
-<p>Emphasizes new climate agreements, restored military communication channels, integrated supply chains, and the observation that "both governments have repeatedly chosen negotiation over escalation."</p>
-</div>
-</details>
-
-**Outcome:** Cooperation Perception Score (1–5). Higher = more optimistic about cooperation.
-
-**Hypothesis:** Hobbesian framing lowers cooperation perception; Lockean framing raises it; control falls between.
-
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment1" data-chart-type="bar"></div>
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment1" data-chart-type="strip"></div>
-</div>
-
-**What this illustrates:** A single paragraph of framing — read in under 30 seconds — shifts the average cooperation perception score by nearly a full point on a 5-point scale. The same underlying facts about U.S.–China relations produce measurably different perceptions depending on the narrative frame. That's the constructivist insight made concrete.
-
----
-
-## Experiment 2: Framing Nuclear Safety
-
-<div class="experiment-card fade-in">
-
-### Module 2 · Security Dilemmas & Nuclear Proliferation
-
-**Research question:** Does framing nuclear weapons as a stabilizing force versus an existential threat shift students' perception of whether nuclear weapons make the world safer?
-
-**Conditions:**
-
-<details>
-<summary>Stability — "Nuclear Deterrence: A Stabilizing Force"</summary>
-<div>
-<p>Emphasizes that no two nuclear-armed states have gone to war, the "long peace" of the Cold War, and deterrence logic: "when both sides face the prospect of mutual destruction, neither is willing to risk war."</p>
-</div>
-</details>
-
-<details>
-<summary>Danger — "Nuclear Weapons: An Existential Threat"</summary>
-<div>
-<p>Emphasizes near-misses (the 1983 Soviet false alarm, the 1961 North Carolina incident), the risk of accident or unauthorized use, and the February 2026 expiration of the last U.S.–Russia arms control treaty.</p>
-</div>
-</details>
-
-<details>
-<summary>Control — "Nuclear Weapons: A Brief Overview"</summary>
-<div>
-<p>Neutral summary: nine nuclear-armed states, stockpile peaked at ~70,000 warheads, now ~12,500. Notes existing treaties and institutions without evaluative framing.</p>
-</div>
-</details>
-
-**Outcome:** Nuclear Safety Perception Score (1–5). Higher = views nuclear weapons as more stabilizing.
-
-**Hypothesis:** Stability framing raises safety perception; Danger framing lowers it; control falls between.
-
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment2" data-chart-type="bar"></div>
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment2" data-chart-type="strip"></div>
-</div>
-
-**What this illustrates:** The Waltz–Sagan debate isn't just an academic disagreement — it maps onto a genuine perceptual split that can be induced by narrative framing. Students who read the "stability" frame rate nuclear weapons as significantly safer than those who read the "danger" frame. The lesson: how we *talk* about nuclear weapons shapes what we think we know about them.
-
----
-
-## Experiment 3: Historical Analogies and Strategic Thinking
-
-<div class="experiment-card fade-in">
-
-### Module 3 · Non-Western IR Theory
-
-**Research question:** Does the historical analogy used to frame a regional security scenario — European (balance-of-power) versus Asian (institutional engagement) — shape how students think the smaller states should respond?
-
-This experiment directly tests the module's central claim: that the frameworks we bring to IR analysis are shaped by whose history we treat as the default.
-
-**Conditions:**
-
-<details>
-<summary>European Frame — Lessons from Early 20th-Century Europe</summary>
-<div>
-<p>A fictional scenario ("Indara Sea region, State R") framed through the analogy of rising Germany destabilizing the European balance of power. Emphasizes security competition, alliance formation, and the risk of miscalculation.</p>
-</div>
-</details>
-
-<details>
-<summary>Asian Frame — Lessons from Southeast Asia</summary>
-<div>
-<p>The identical scenario framed through the analogy of ASEAN's strategy of institutional binding. Emphasizes multilateral engagement, shared norms, and managing power asymmetries without forcing states to choose sides.</p>
-</div>
-</details>
-
-<details>
-<summary>Control — No Historical Analogy</summary>
-<div>
-<p>The same scenario presented without any historical analogy. States only that "scholars and policymakers disagree about what outcomes are most likely."</p>
-</div>
-</details>
-
-**Outcome:** Engagement Orientation Score (1–5). Higher = more engagement-oriented; lower = more balance-of-power oriented.
-
-**Hypothesis:** European frame primes balance-of-power thinking (lower scores); Asian frame primes engagement thinking (higher scores); control falls between.
-
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment3" data-chart-type="bar"></div>
-</div>
-
-<div class="chart-container fade-in">
-  <span class="chart-simulated-label">Simulated Data — For Illustration Only</span>
-  <div data-experiment="experiment3" data-chart-type="strip"></div>
-</div>
-
-**What this illustrates:** The same facts, the same scenario, the same question — but students primed with a European historical analogy lean toward balance-of-power recommendations, while those primed with an Asian analogy lean toward institutional engagement. This is exactly what Acharya's critique of Western-centric IR predicts: the frameworks we import shape the conclusions we reach. When European history is the default lens, balancing looks natural. When Asian history is the lens, engagement does.
-
----
-
-## Ethics and Data Practices
-
-A few things I want to be transparent about:
-
-- **No real data is shown on this site.** Students were not informed that their responses would be publicly displayed, and publishing them would be a violation of the trust they placed in the survey process. All charts use simulated data generated to illustrate the experimental design.
-
-- **Simulated data is illustrative, not predictive.** The patterns shown above are directionally consistent with what framing experiments typically produce, but the specific numbers are fabricated. Real results may be stronger, weaker, or null.
-
-- **Survey participation is voluntary.** Students are invited to participate but are not required to. The surveys include an optional free-text field for course feedback, which I read privately.
-
-- **Knowledge checks are not graded.** The multiple-choice questions that follow each experiment are for formative assessment only — they help me gauge whether the readings were understood, and they give students a low-stakes check on their own comprehension.
-
----
-
-## What Makes This Approach Work
-
-The experiments succeed pedagogically because they operate at three levels simultaneously:
-
-1. **Substantive:** They test claims from the assigned readings. The Module 1 experiment tests the constructivist claim that framing shapes perception. The Module 2 experiment tests whether the Waltz–Sagan debate maps onto a perceptual split. The Module 3 experiment tests Acharya's argument that historical analogies constrain strategic imagination.
-
-2. **Methodological:** Students learn what random assignment means, what a Likert scale is, what reverse-coding does, and how to interpret a bar chart with confidence intervals — all in a context where they care about the results because the data is about them.
-
-3. **Experiential:** The most powerful moment comes when students realize that their own responses were shaped by a paragraph they read minutes ago. That moment — the realization that *I* am susceptible to framing effects — is worth more than any lecture on constructivism.
+<header class="page-hero">
+  <div>
+    <p class="eyebrow">Design record · Spring 2026</p>
+    <h1>Classroom studies</h1>
+    <p class="lead">The course used several kinds of classroom inquiry. This page distinguishes randomized survey experiments from descriptive surveys and discussion exercises—and records what each design can and cannot establish.</p>
+  </div>
+  <dl class="hero-facts">
+    <div><dt>Randomized experiments</dt><dd>Weeks 2–4</dd></div>
+    <div><dt>Descriptive surveys</dt><dd>Weeks 10 and 12</dd></div>
+    <div><dt>Structured exercise</dt><dd>Week 11</dd></div>
+  </dl>
+</header>
+
+<aside class="note-panel" aria-labelledby="data-boundary">
+  <h2 id="data-boundary">Public data boundary</h2>
+  <p>The designs are documented here because they are part of the teaching. Student-level responses, open-text comments, and aggregate result tables are not published. The earlier version of this site used synthetic charts but described some patterns too much like observed findings; those charts and claims have been removed.</p>
+</aside>
+
+<section class="content-section prose" aria-labelledby="why-inquiry">
+  <h2 id="why-inquiry">Why use classroom inquiry?</h2>
+  <p>International relations makes claims about perception, interests, identity, risk, and belonging. A classroom study can make those claims inspectable: students see how a hypothesis becomes a treatment, how an abstract concept becomes a measure, and why evidence can be null, ambiguous, or contrary to expectation.</p>
+
+  <p>The studies serve a pedagogical purpose. They are not preregistered population research, and the participants are a voluntary convenience group from one course. Random assignment can make a comparison internally informative, but it does not make the class representative of students, voters, states, or societies.</p>
+
+  <h2 id="design-types">Three kinds of evidence</h2>
+  <div class="lecture-map">
+    <div><strong>Experiment</strong><p>Participants are assigned to different materials before answering a common outcome battery. The comparison concerns the implemented materials, subject to sample size and implementation limits.</p></div>
+    <div><strong>Survey</strong><p>All participants receive the same questions. The result describes the participating group; it does not identify a causal effect or estimate a wider population.</p></div>
+    <div><strong>Exercise</strong><p>A show of hands or discussion prompt structures collective reasoning. Unless responses are recorded, it produces no result dataset.</p></div>
+  </div>
+</section>
+
+<section class="content-section prose" id="week-2" aria-labelledby="week-2-title">
+  <p class="eyebrow">Week 2 · Randomized survey experiment</p>
+  <h2 id="week-2-title">Framing U.S.–China cooperation</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>Does a Hobbesian rivalry brief or a Lockean cooperation brief change expectations about whether the United States and China can cooperate?</p></div>
+    <div><h3>Conditions</h3><p>A rivalry-oriented analyst brief; a cooperation-oriented analyst brief; or the implemented control, which received no analyst brief. The no-brief control corrects the earlier site's inaccurate description of a neutral “snapshot” vignette.</p></div>
+    <div><h3>Outcome</h3><p>Five 1–5 items formed a Cooperation Perception Score after two items were reverse-coded. Higher scores represented more optimism about cooperation.</p></div>
+    <div><h3>What it teaches</h3><p>How theoretical language becomes a treatment, why a multi-item scale requires coding decisions, and why a predicted ordering is not the same thing as a reliable effect.</p></div>
+  </div>
+  <p class="method-note">The two briefs contain different claims and examples. The design tests those complete narratives; it should not be summarized as “the facts were identical and only wording changed.”</p>
+</section>
+
+<section class="content-section prose" id="week-3" aria-labelledby="week-3-title">
+  <p class="eyebrow">Week 3 · Randomized survey experiment</p>
+  <h2 id="week-3-title">Framing nuclear safety</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>Does emphasizing deterrence and stability, danger and near-misses, or a descriptive overview change assessments of whether nuclear weapons stabilize international politics?</p></div>
+    <div><h3>Conditions</h3><p>A Stability vignette centered on deterrence and the long peace; a Danger vignette centered on accidents, false alarms, and arms-control erosion; or a descriptive Control vignette.</p></div>
+    <div><h3>Outcome</h3><p>Five 1–5 items formed a Nuclear Safety Perception Score after two items were reverse-coded. Higher scores represented a more stabilizing assessment.</p></div>
+    <div><h3>What it teaches</h3><p>How the Waltz–Sagan debate can be translated into competing expectations, and why treatment text must be separated from claims supported by the resulting comparison.</p></div>
+  </div>
+  <p class="method-note">Claims inside the vignettes are arguments supplied to participants, not facts established by the survey. The public site therefore makes no causal claim about the realized student comparison.</p>
+</section>
+
+<section class="content-section prose" id="week-4" aria-labelledby="week-4-title">
+  <p class="eyebrow">Week 4 · Randomized survey experiment</p>
+  <h2 id="week-4-title">Historical analogies and strategic advice</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>Does a European balance-of-power analogy or an Asian institutional-engagement analogy change recommendations for smaller states facing a fictional rising power?</p></div>
+    <div><h3>Conditions</h3><p>A European historical brief, an Asian historical brief, or a control scenario without either historical analogy.</p></div>
+    <div><h3>Outcome</h3><p>Five 1–5 items formed an Engagement Orientation Score after two items were reverse-coded. Higher scores represented more engagement-oriented advice.</p></div>
+    <div><h3>What it teaches</h3><p>How historical experience enters strategic reasoning—and how the design of an instrument can itself reproduce the regional simplifications that Global IR asks scholars to question.</p></div>
+  </div>
+  <p class="method-note">The vignettes do not vary historical analogy alone: they bundle analogies with different substantive content, and the control contains additional facts. The exercise compares complete briefs rather than a single isolated frame.</p>
+</section>
+
+<section class="content-section prose" id="week-10" aria-labelledby="week-10-title">
+  <p class="eyebrow">Week 10 · Descriptive classroom survey</p>
+  <h2 id="week-10-title">Criteria of national membership</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>What do participants consider important for being “truly” part of a nation, and how do those criteria map onto ethnic, civic, and voluntarist conceptions of membership?</p></div>
+    <div><h3>Instrument</h3><p>Citizen preference and an eight-item battery covering birth, ancestry, citizenship, residence, language, religion, institutional respect, and felt membership, plus background and optional feedback items.</p></div>
+    <div><h3>Comparison</h3><p>The analysis workflow compared selected items descriptively with weighted ISSP 2023 benchmarks for four countries. Not every classroom item had a directly comparable benchmark.</p></div>
+    <div><h3>What it teaches</h3><p>How abstract definitions of nationalism become measurement choices, and how a descriptive classroom pattern differs from a representative country estimate.</p></div>
+  </div>
+</section>
+
+<section class="content-section prose" id="week-11" aria-labelledby="week-11-title">
+  <p class="eyebrow">Week 11 · Structured exercise</p>
+  <h2 id="week-11-title">Diagnosing the globalization trilemma</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>Which corner of Rodrik's trilemma—deep globalization, national sovereignty, or democratic politics—was constrained in five political-economic cases?</p></div>
+    <div><h3>Cases</h3><p>Greece, Brexit, China, the United States under Trump, and Argentina.</p></div>
+    <div><h3>Format</h3><p>Students voted by show of hands before the lecture worked through each diagnosis.</p></div>
+    <div><h3>Evidence status</h3><p>No vote tally or participant count was recorded. Expected splits in the speaker notes are prompts for discussion, not classroom findings.</p></div>
+  </div>
+</section>
+
+<section class="content-section prose" id="week-12" aria-labelledby="week-12-title">
+  <p class="eyebrow">Week 12 · Descriptive survey and course review</p>
+  <h2 id="week-12-title">The Anthropocene and global futures</h2>
+  <div class="study-record">
+    <div><h3>Question</h3><p>How do participants understand the Anthropocene, assess the adequacy of IR and sovereignty, anticipate ecological conflict, prioritize future challenges, and evaluate course components?</p></div>
+    <div><h3>Instrument</h3><p>A concept-check item; five agreement items; one future-priority choice; five usefulness ratings; and optional open-text feedback.</p></div>
+    <div><h3>Implementation note</h3><p>An earlier draft proposed ranking five future forces. The final fielded instrument instead used one single-choice priority item.</p></div>
+    <div><h3>What it teaches</h3><p>How formative assessment and course review can share an instrument while remaining distinct from an experiment.</p></div>
+  </div>
+  <p class="method-note">Open-text feedback is not quoted or summarized publicly. The fielded activity was a non-randomized survey, not the proposed framing experiment described by the site's earlier placeholder page.</p>
+</section>
+
+<section class="content-section prose" aria-labelledby="interpretation-rules">
+  <h2 id="interpretation-rules">Interpretation rules</h2>
+  <ol class="takeaway-list">
+    <li><div>Call a study an experiment only when an implemented assignment mechanism created comparison conditions.</div></li>
+    <li><div>Describe the treatment that was actually fielded, including a no-brief control or bundled differences between vignettes.</div></li>
+    <li><div>Separate hypotheses and treatment claims from findings. A pedagogically useful null or reversal is still informative.</div></li>
+    <li><div>Do not generalize a voluntary classroom group to a population.</div></li>
+    <li><div>Keep student-level responses, identifying fields, and open-text feedback out of the public repository.</div></li>
+  </ol>
+</section>

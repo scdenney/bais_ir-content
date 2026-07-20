@@ -1,64 +1,43 @@
 ---
 layout: default
-title: Modules
+title: Lectures
+section: lectures
+description: "Overviews of six International Relations lectures taught in BA International Studies at Leiden University in 2026."
 ---
 
-## All Modules
+<header class="page-hero">
+  <div>
+    <p class="eyebrow">Six lectures · Twelve course weeks</p>
+    <h1>Lectures</h1>
+    <p class="lead">Each lecture page makes the structure explicit: the puzzle, the route through the material, the required readings, the classroom study where one was used, and the conclusions students should be able to defend.</p>
+  </div>
+  <dl class="hero-facts">
+    <div><dt>Foundation block</dt><dd>Weeks 2–4</dd></div>
+    <div><dt>Society and futures</dt><dd>Weeks 10–12</dd></div>
+    <div><dt>Lecture format</dt><dd>Monday · 11:15–13:00</dd></div>
+  </dl>
+</header>
 
-These six modules represent the content I design and deliver in the IR course. Each corresponds to specific weeks in the [AY 2025–2026 syllabus](https://scdenney.github.io/assets/pdf/2526-bais-ir.pdf), noted on each module page.
+<section class="content-section" aria-labelledby="foundations">
+  <div class="section-heading">
+    <h2 id="foundations">Foundations</h2>
+    <p>The first block establishes the main theoretical traditions, tests them against nuclear proliferation, and then asks whose histories became the discipline's default evidence.</p>
+  </div>
+  <div class="module-grid">
+    <a class="module-card" href="{{ '/modules/01-ir-theories' | relative_url }}"><div class="module-card-meta">01<span>Week 2</span></div><div class="module-card-body"><h3>Power, Institutions, and Ideas</h3><p>Traditional IR theories and the different worlds their assumptions make visible.</p></div></a>
+    <a class="module-card" href="{{ '/modules/02-security-proliferation' | relative_url }}"><div class="module-card-meta">02<span>Week 3</span></div><div class="module-card-body"><h3>Security Dilemmas and Nuclear Proliferation</h3><p>Deterrence, the NPT, Sagan's three models, and the North Korean case.</p></div></a>
+    <a class="module-card" href="{{ '/modules/03-nonwestern-ir' | relative_url }}"><div class="module-card-meta">03<span>Week 4</span></div><div class="module-card-body"><h3>Non-Western IR Theory</h3><p>Universality, Eurocentrism, Asian historical experience, and theory-building beyond the West.</p></div></a>
+  </div>
+</section>
 
-<div class="module-grid">
-  <a href="{{ '/modules/01-ir-theories' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #3B4C6B;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 1 · Syllabus Week 2</p>
-      <h3 class="module-card-title">Traditional IR Theories</h3>
-      <p class="module-card-desc">Realism, liberalism, and constructivism — taught through contemporary cases and a live framing experiment.</p>
-    </div>
-  </a>
-
-  <a href="{{ '/modules/02-security-proliferation' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #B8593E;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 2 · Syllabus Week 3</p>
-      <h3 class="module-card-title">Security Dilemmas & Nuclear Proliferation</h3>
-      <p class="module-card-desc">The Waltz–Sagan debate, Sagan's three models, and why states pursue the bomb.</p>
-    </div>
-  </a>
-
-  <a href="{{ '/modules/03-nonwestern-ir' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #6B8F8A;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 3 · Syllabus Week 4</p>
-      <h3 class="module-card-title">Non-Western IR Theory</h3>
-      <p class="module-card-desc">Global IR, historical alternatives to Westphalian order, and decolonizing the discipline.</p>
-    </div>
-  </a>
-
-  <a href="{{ '/modules/04-nation-race-gender' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #C9A2A0;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 4 · Syllabus Week 10</p>
-      <h3 class="module-card-title">Nation, Race, and Gender</h3>
-      <p class="module-card-desc">Nationalism as a technology of belonging — and the racialized, gendered boundaries it produces.</p>
-    </div>
-  </a>
-
-  <a href="{{ '/modules/05-society-global-age' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #8B9F82;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 5 · Syllabus Week 11</p>
-      <h3 class="module-card-title">Society in a Global Age</h3>
-      <p class="module-card-desc">Rodrik's trilemma, the globalization of rage, risk society, and liquid modernity.</p>
-    </div>
-  </a>
-
-  <a href="{{ '/modules/06-anthropocene' | relative_url }}" class="module-card">
-    <div class="module-card-accent" style="background: #6B7FA0;"></div>
-    <div class="module-card-body">
-      <p class="module-card-number">Module 6 · Syllabus Week 12</p>
-      <h3 class="module-card-title">Global Politics & the Anthropocene</h3>
-      <p class="module-card-desc">Technology, ecology, migration, AI — and whose futures IR theory enables us to imagine.</p>
-    </div>
-  </a>
-</div>
+<section class="content-section" aria-labelledby="society-futures">
+  <div class="section-heading">
+    <h2 id="society-futures">Society and futures</h2>
+    <p>The second block shifts the level of analysis: from states and systems to membership, social dislocation, and the political work performed by imagined futures.</p>
+  </div>
+  <div class="module-grid">
+    <a class="module-card" href="{{ '/modules/04-nation-race-gender' | relative_url }}"><div class="module-card-meta">04<span>Week 10</span></div><div class="module-card-body"><h3>Nation, Race, and Gender</h3><p>National identity as a political construction whose boundaries can exclude, flatten, or be renegotiated.</p></div></a>
+    <a class="module-card" href="{{ '/modules/05-society-global-age' | relative_url }}"><div class="module-card-meta">05<span>Week 11</span></div><div class="module-card-body"><h3>Society in a Global Age</h3><p>Global interconnectedness, political discontent, and economic versus cultural explanations of populism.</p></div></a>
+    <a class="module-card" href="{{ '/modules/06-anthropocene' | relative_url }}"><div class="module-card-meta">06<span>Week 12</span></div><div class="module-card-body"><h3>Global Politics and the Anthropocene</h3><p>Ecological politics, technological power, and the distribution of possible futures.</p></div></a>
+  </div>
+</section>

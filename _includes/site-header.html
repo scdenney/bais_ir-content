@@ -1,0 +1,16 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Teaching International Relations home">
+      <span class="site-kicker">Leiden University · BA International Studies</span>
+      <span class="site-title">Teaching International Relations</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.section == 'overview' %} aria-current="page"{% endif %}>Overview</a>
+      <a href="{{ '/modules/' | relative_url }}"{% if page.section == 'lectures' %} aria-current="page"{% endif %}>Lectures</a>
+      <a href="{{ '/readings' | relative_url }}"{% if page.section == 'readings' %} aria-current="page"{% endif %}>Readings</a>
+      <a href="{{ '/experiments' | relative_url }}"{% if page.section == 'studies' %} aria-current="page"{% endif %}>Classroom studies</a>
+      <a href="{{ '/approach' | relative_url }}"{% if page.section == 'approach' %} aria-current="page"{% endif %}>Approach</a>
+    </nav>
+  </div>
+</header>

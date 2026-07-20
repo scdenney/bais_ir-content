@@ -1,110 +1,55 @@
-# BAIS IR Course Content Site
+# BAIS IR course companion
 
-Course content showcase site for **BAIS: International Relations**, Leiden University.
-Deployed at `https://scdenney.github.io/bais_ir-content/`.
+Public companion for six International Relations lectures in Leiden University's BA International Studies program, AY 2025–2026. The live site is `https://scdenney.github.io/bais_ir-content/`.
 
-This is **not a syllabus** — it documents what is taught and why, for students, prospective employers, and the instructor. All survey data shown is simulated; no real student responses appear anywhere on this site.
+## Purpose and scope
 
-## Repository structure
+- Documents the six lectures designed and delivered by Steven Denney in the co-taught twelve-week course.
+- Gives concise lecture overviews, required-reading notes, classroom-study designs, and takeaways.
+- Is not a syllabus or course-administration site.
+- Uses the authoritative course repository at `../bais_ir26/` as its content source.
 
-```
-bais_ir-content/
-├── _config.yml                  # Jekyll config (theme: jekyll-theme-cayman)
-├── _layouts/
-│   ├── default.html             # Site shell (header, nav, footer, disclaimer)
-│   └── module.html              # Module pages (hero banner, sidebar TOC, prev/next)
-├── assets/
-│   ├── css/style.scss           # Cayman base + Wes Anderson palette overrides
-│   ├── js/
-│   │   ├── scroll-effects.js    # IntersectionObserver fade-in (~15 lines)
-│   │   └── survey-viz.js        # Chart.js bar + strip charts for experiments
-│   └── data/
-│       └── simulated-experiments.json  # Pre-generated fake data for 3 experiments
-├── index.md                     # Landing page (disclaimer, pillar cards, module grid)
-├── approach.md                  # Teaching philosophy
-├── experiments.md               # Framing experiment methodology + Chart.js charts
-├── modules/
-│   ├── index.md                 # Module overview grid
-│   ├── 01-ir-theories.md        # Module 1: Traditional IR Theories (Week 2)
-│   ├── 02-security-proliferation.md  # Module 2: Security & Nukes (Week 3)
-│   ├── 03-nonwestern-ir.md      # Module 3: Non-Western IR Theory (Week 4)
-│   ├── 04-nation-race-gender.md # Module 4: Nation, Race, Gender (Week 10)
-│   ├── 05-society-global-age.md # Module 5: Society in a Global Age (Week 11)
-│   └── 06-anthropocene.md       # Module 6: The Anthropocene (Week 12, placeholder)
-├── Gemfile
-└── .gitignore
-```
-
-## Color palette (Wes Anderson / Beamer)
+## Information architecture
 
 ```
---accent-blue:   #3B4C6B   (header, links, headings)
---warm-cream:    #FAF8F5   (page background)
---dusty-rose:    #C9A2A0   (borders, accents, Module 4 color)
---terracotta:    #B8593E   (alerts, experiment labels, Module 2 color)
---sage-green:    #8B9F82   (Module 5 color)
---soft-teal:     #6B8F8A   (blockquote borders, Module 3 color)
---slate-blue:    #6B7FA0   (Module 6 color)
+index.md             Overview and six-lecture course arc
+modules/index.md     Lecture index
+modules/01–06.md     Individual lecture records
+readings.md          Required-reading guide
+experiments.md       Survey experiments, descriptive surveys, and exercise record
+approach.md          Teaching and data-practice principles
+_includes/           Shared header and footer
+_layouts/            Default and lecture layouts
+assets/css/          Standalone, restrained site styles
 ```
 
-Each module has its own accent color used in the hero accent bar and theme tags.
+The public navigation is: Overview, Lectures, Readings, Classroom studies, Approach.
 
-## Key design decisions
+## Accuracy and data rules
 
-- **Module layout** uses a two-column grid: sticky sidebar TOC (auto-generated from H2 headers via JS) + main content
-- **Experiments page** loads Chart.js from CDN; data lives in `assets/data/simulated-experiments.json`
-- **Simulated data only** — never use real student responses. The `simulated-experiments.json` file contains fake data with deterministic jitter for strip charts
-- **Module experiment sections** are kept brief (2 sentences + link to Experiments page) — the full methodology lives on `experiments.md`
-- **`<details>` tags** are used for reading lists, intellectual tradition breakdowns, and comparative case studies
-- **Citation style**: author (year) on first mention in body text; full bibliographic details in Further Reading `<details>` sections only
+- Treat the syllabus, fielded survey instruments, final slide sources, and executable analysis workflows as authoritative. Flag conflicts instead of silently guessing.
+- Distinguish required readings from recommended or lecture-specific supplements.
+- Distinguish randomized experiments, descriptive surveys, and unrecorded discussion exercises.
+- Do not put raw survey exports, Qualtrics files, identifying fields, student-level rows, open-text feedback, or real response tables in this repository.
+- Do not describe hypotheses, treatment text, simulations, or expected patterns as observed findings.
+- Do not redistribute copyrighted assigned-reading PDFs.
+- Instructor-authored slides or notes require a separate release and rights decision before they are copied or linked publicly.
 
-## Adding or editing modules
+## Design rules
 
-Module pages use the `module` layout. Front matter:
-
-```yaml
----
-layout: module
-title: "Module Title"
-module: 4
-subtitle: "Subtitle"
-accent: "#C9A2A0"
-themes: ["Tag1", "Tag2", "Tag3"]
-syllabus_weeks: "Week 10"
-prev_module: "/modules/03-nonwestern-ir"
-prev_title: "Module 3: Non-Western IR"
-next_module: "/modules/05-society-global-age"
-next_title: "Module 5: Society in a Global Age"
----
-```
-
-The TOC is auto-generated from `h2` elements. Use `h3` for subsections within. Add `---` between major content blocks for visual separation.
-
-## Source material locations
-
-Content for this site is drawn from two locations (not in this repo):
-
-- **2025-26 materials**: `/Users/scdenney/Documents/GitHub/courses/bais_ir26/` (Modules 1-3: tex, speaker notes, reading guides, survey designs)
-- **2024-25 materials**: Google Drive at `work/teaching/2024-2025/IR-BAIS` (Modules 4-5: lecture notes, presentations, definitions documents)
+- Use one unique page `<h1>` and semantic section headings.
+- Preserve the shared skip link, labelled navigation, focus states, contrast, and visible-by-default content.
+- Keep the palette restrained: dark ink, neutral surfaces, and one blue-gray accent; the warm tone is reserved for study notes.
+- Avoid scroll-triggered visibility, decorative animation, external chart libraries, and canvas-only information.
+- Keep lecture pages in the common order: Overview, Lecture map, Readings, Classroom study where applicable, Takeaways.
+- Use US spelling and en dashes for parenthetical breaks.
 
 ## Building locally
 
 ```bash
 bundle install
+bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
-Opens at `http://localhost:4000/bais_ir-content/`.
-
-## Conventions
-
-- US spelling (behavior, defense, maximize, globalization)
-- No emojis
-- Bold for key terms on first introduction (`**anarchy**`)
-- Italics for book titles (`*The Twenty Years' Crisis*`)
-- `<details><summary>` for anything that can be collapsed (reading lists, case studies, thinker profiles)
-- Footer disclaimer appears on every page via the layout files
-
-## Linked from
-
-The main personal site (`scdenney.github.io`) links to this site from `teaching.md` via a "Course Content" resource badge on the International Relations course card.
+The local site is served under `/bais_ir-content/` because `_config.yml` defines that base path.

@@ -1,7 +1,14 @@
 title: "Teaching International Relations"
-description: "Course content, pedagogy, and classroom innovation"
+description: "Lecture, reading, and classroom-study notes from BA International Studies at Leiden University"
 theme: jekyll-theme-cayman
 baseurl: /bais_ir-content
+url: "https://scdenney.github.io"
 show_downloads: false
 markdown: kramdown
 highlighter: rouge
+permalink: pretty
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
